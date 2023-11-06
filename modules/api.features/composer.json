@@ -1,0 +1,14 @@
+{
+  "name": "dev/api",
+  "autoload": {
+    "psr-4": {
+      "Api\\": "lib/"
+    }
+  },
+  "require": {
+    "zircote/swagger-php": "^4.7",
+    "yiisoft/validator": "^1.1",
+    "symfony/console": "^6.3",
+    "yiisoft/translator-message-php": "^1.1"
+  }
+}
